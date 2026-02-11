@@ -3,10 +3,6 @@
 ## 📌 Overview
 This POC demonstrates a **Standardized Configuration Architecture** for FIS microservices using the **OpenFeature** standard. 
 
-It solves the problem of decentralized configuration by providing a unified, type-safe SDK that handles:
-1.  **Feature Flagging** (Toggling UI/Logic safely).
-2.  **Business Logic Configs** (Tax rates, limits).
-3.  **Resiliency** (Fallback logic and error handling).
 
 The architecture decouples the *Application Code* from the *Configuration Source* (DynamoDB/LaunchDarkly), allowing backend changes without redeploying applications.
 
