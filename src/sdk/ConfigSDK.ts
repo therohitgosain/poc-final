@@ -1,6 +1,6 @@
 import { OpenFeature, InMemoryProvider } from '@openfeature/server-sdk';
 
-export interface ConfigOptions {
+interface ConfigOptions {
     appName: string;
     environment: string;
 }
